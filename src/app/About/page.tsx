@@ -18,7 +18,7 @@ exploring the frontiers of modern web and AI technologies.
 
 My coding journey started with front-end development, but over time,
  I &rsquo;ve expanded into backend systems, automation, and now intelligent agents 
- that can act with autonomy. I'm especially excited about how Agentic AI
+ that can act with autonomy. I&rsquo; git add .m especially excited about how Agentic AI
   is reshaping productivity and decision-making.
 
       </div>
