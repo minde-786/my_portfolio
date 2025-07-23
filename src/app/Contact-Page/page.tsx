@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link'
 import React from 'react'
 import { useForm, } from "react-hook-form"
 
@@ -10,12 +9,12 @@ type FormData = {
   subject: string;
   Message: string;
 };
-const page = () => {
+const Page = () => {
 
     const {
     register,
     handleSubmit,
-    watch,
+    
     formState: { errors,isSubmitting },}=useForm<FormData>();
  async function onSubmit(data:FormData){
   await new Promise((resolve) => setTimeout(resolve,5000));
@@ -120,4 +119,4 @@ console.log('Submitting the form', data)
   )
 }
 
-export default page
+export default Page

@@ -9,7 +9,7 @@ const page = () => {
       </h1><hr/>
 <div className='lg:grid grid-cols-2 mt-2'>
   <div className=' bg-[#040e1a] mt-4 text-white p-4 max-w-3xl mx-4 text-justify leading-relaxed rounded-lg shadow-lg hover:shadow-2xl'>
-Hi! I'm a passionate and curious full-stack developer 
+Hi! I &rsquo;m a passionate and curious full-stack developer 
 exploring the frontiers of modern web and AI technologies.
  My core skills revolve around <span className='text-shadow-gray-100 font-bold text-2xl text-'> Next.js</span> {' '}and{' '}
   <span className='text-gray-100 font-bold text-2xl text-'>React</span>{' '}
@@ -17,7 +17,7 @@ exploring the frontiers of modern web and AI technologies.
  to stay ahead in the evolving tech landscape.
 
 My coding journey started with front-end development, but over time,
- I’ve expanded into backend systems, automation, and now intelligent agents 
+ I &rsquo;ve expanded into backend systems, automation, and now intelligent agents 
  that can act with autonomy. I'm especially excited about how Agentic AI
   is reshaping productivity and decision-making.
 

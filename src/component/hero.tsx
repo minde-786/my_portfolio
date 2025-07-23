@@ -7,7 +7,7 @@ const page = () => {
       <section className=" flex items-center justify-center lg:px-6 ">
   <div className="text-center lg:max-w-xl lg:mb-10">
     <h1 className="text-4xl font-bold mb-8 text-amber-50">
-      Hi, I'm <span className="text-blue-600">Muntazir Mehdi</span>
+      Hi,  I&rsquo;m <span className="text-blue-600">Muntazir Mehdi</span>
     </h1>
     <p className="text-lg text-blue-400 mb-6">
       A passionate Full-Stack Developer crafting modern, responsive, and user-friendly web applications.

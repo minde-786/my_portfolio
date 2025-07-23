@@ -36,7 +36,7 @@ const page = () => {
         title:"my-Portfolio ",
         discription:"A fully responsive and modern portfolio website showcasing my skills, projects, and achievements. Built with Next.js, Tailwind CSS, and smooth animations to ensure a clean, user-friendly experience on all devices.",
      image:"/ha.png",
-      link:''
+      link:'https://github.com/minde-786/my_portfolio'
      },
        {
         title:"🔐 Password Strength Checker",
