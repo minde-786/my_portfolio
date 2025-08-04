@@ -1,7 +1,12 @@
 import React from 'react'
+
 import Link from 'next/link'
 import Image from 'next/image'
+
+ 
+
 const page = () => {
+
   return (
    <div> <div className=' lg:grid grid-cols-2 h-110 '>
       <section className=" flex items-center justify-center lg:px-6 ">
@@ -16,27 +21,31 @@ const page = () => {
   </div>
 </section>
 <div className='mx-12'>
+  
   <Image 
   src="/img.png"
    alt="image" width={700} height={200} 
-   className='  lg:py-6   border border-slate-800 rounded-full shadow-2xl lg:mt-9 lg:mb-9  md:ml-36  sm:0 mt-4 hover:shadow-2xl md:h-80 lg:h-100 lg:w-100 md:w-80' />
+   className='  lg:py-6   border border-slate-800 rounded-full shadow-2xl lg:mt-9 lg:mb-9 
+    md:ml-36  sm:0 mt-4 hover:shadow-2xl md:h-80 lg:h-100 lg:w-100 md:w-80 
+       w-72 h-72 bg-[#10223d]  
+      bottom-0 -right-10  ' />
 </div></div>
 
 
 
-<div className=" text-center mt-14 md:mt-20 md:mr-10 lg:mt-0  ">
+<div className=" text-center mt-32 md:mt-20 md:mr-10 lg:mt-0  ">
       <a
   href="/Muntazir-CV.pdf"
   target="_blank"
   rel="noopener noreferrer"
-  className="border border-slate-700 text-blue-100 lg:mx-14 mx-4 lg:px-6 
-  md: px-4 lg:py-2 rounded-2xl hover:bg-[#1f2834]  transition lg:mb-4 hover:shadow-2xl shadow-lg bg-[#051850] hover:text-blue-500 "
+  className="border border-slate-700 text-blue-100 lg:mx-14 mx-4 lg:px-6 animate-bounce
+  md: px-4 lg:py-2 rounded-2xl hover:bg-hover:bg-[#051865]  transition lg:mb-4 hover:shadow-2xl shadow-lg bg-[#051850] hover:text-blue-500 hover:bg-[#051875]"
 >
   View CV
 </a>
       <Link href="/Contact-Page">
         <span className="border border-slate-700 text-blue-100 lg:mx-14 md:mx-4 lg:px-6 md: px-4 lg:py-2 rounded-2xl
-         hover:bg-[#1f2834] transition lg:mb-4 hover:shadow-2xl bg-[#051850] shadow-2xl hover:text-blue-500">Hire Me</span>
+         hover:bg-[#051875] transition lg:mb-4 hover:shadow-2xl bg-[#051850] shadow-2xl hover:text-blue-500">Hire Me</span>
       </Link>
     </div>
     </div> 
