@@ -5,7 +5,7 @@ const page = () => {
     <div>
       <section className="bg-gra-50 py-10 px-4 md:px-10 lg:px-20 ">
   <div className="max-w-7xl mx-auto">
-    <h2 className="text-4xl font-bold text-center text-amber-50 mb-12 py-3 shadow-lg hover:shadow-2xl pb-5">
+    <h2 className="  tracking-tight text-4xl font-bold text-center text-amber-50 mb-12 py-3 shadow-lg hover:shadow-2xl pb-5  ">
       💻 Services I Offer
    </h2> 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -53,7 +53,7 @@ const page = () => {
       ].map((service, index) => (
         <div
           key={index}
-          className=" bg-[#040e1a] rounded-2xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300"
+          className=" bg-[#040e1a] rounded-2xl  leading-relaxed max-w-lg shadow-lg p-6 hover:shadow-2xl transition-all duration-300  hover:scale-115 "
         >
           <h3 className="text-xl font-semibold text-amber-50 mb-3">
             {service.title}

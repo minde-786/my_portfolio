@@ -8,12 +8,12 @@ const page = () => {
         👨‍💻 About Me
       </h1><hr/>
 <div className='lg:grid grid-cols-2 mt-2'>
-  <div className=' bg-[#040e1a] mt-4 text-white p-4 max-w-3xl mx-4 text-justify leading-relaxed rounded-lg shadow-lg hover:shadow-2xl'>
+  <div className=' bg-[#040e1a] mt-4 text-white p-4 max-w-3xl mx-4 text-justify leading-relaxed rounded-lg shadow-lg hover:shadow-2xl hover:scale-105'>
 Hi! I &rsquo;m a passionate and curious full-stack developer 
 exploring the frontiers of modern web and AI technologies.
  My core skills revolve around <span className='text-shadow-gray-100 font-bold text-2xl text-'> Next.js</span> {' '}and{' '}
   <span className='text-gray-100 font-bold text-2xl text-'>React</span>{' '}
- but I’m also learning <span className='text-gray-100 font-bold text-2xl text-'> Python</span>{' '}and{' '}<span className='text-gray-100 font-bold text-2xl text-'>Agentic AI </span>{' '}
+ but I’m also learning <span className='text-gray-100 font-bold text-2xl text-  hover:scale-105 '> Python</span>{' '}and{' '}<span className='text-gray-100 font-bold text-2xl text-'>Agentic AI </span>{' '}
  to stay ahead in the evolving tech landscape.
 
 My coding journey started with front-end development, but over time,
@@ -22,9 +22,9 @@ My coding journey started with front-end development, but over time,
   is reshaping productivity and decision-making.
 
       </div>
-    <div className=" bg-[#040e1a] mt-4 max-w-md mx-auto p-6  shadow-lg rounded-lg hover:shadow-2xl ">
+    <div className=" bg-[#040e1a] mt-4 max-w-md mx-auto p-6  shadow-lg rounded-lg hover:shadow-2xl hover:scale-105 ">
   <h2 className="text-2xl font-bold text-white mb-2">My Professional Skills</h2>
-  <p className="text-sm text-gray-400 mb-6">
+  <p className="text-sm text-gray-400 mb-6 ">
    Turning ideas into powerful web apps with Next.js and React — now diving  Agentic AI to shape the future of intelligent tech.
   </p>
 
@@ -73,11 +73,11 @@ My coding journey started with front-end development, but over time,
 
 
 </div>
-<div className='text-slate-300 text-center m-14 bg-[#0a1b31] shadow-lg hover:shadow-2xl p-4 rounded-lg border border-slate-800  '>
+<div className='text-slate-300 text-center m-14 bg-[#0a1b31] shadow-lg hover:shadow-2xl p-4 rounded-lg border border-slate-800  hover:scale-110'>
   📩 Let’s build something together! You can reach me at 👉 <span className='hover:text-blue-700 font-thin text-slate-200'> 
     
-    <Link href="mailto:Muntazir3637@email.com" target="_blank"> Muntazir3637@email.com </Link> </span> or <span className='hover:text-blue-700 font-thin text-slate-200'>
-       <Link href="https://github.com/minde-786" target="_blank"> GitHub👩‍💻 </Link></span>
+    <Link href="mailto:Muntazir3637@email.com" target="_blank" className='text-blue-300 '> Muntazir3637@email.com </Link> </span> or <span className='hover:text-blue-700 font-thin text-slate-200'>
+       <Link href="https://github.com/minde-786 " target="_blank" className='text-blue-300'> GitHub👩‍💻 </Link></span>
 </div>
 
 

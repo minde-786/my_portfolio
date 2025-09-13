@@ -13,10 +13,10 @@ const Navbar=()=>{
             </h1>  
             <h2 className="md:flex justify-around  gap-24  lg:py-6 py-9 lg:mx-6">
            
-            <p className="hover:text-gray-400"><Link href="/About">About</Link></p>
-             <p className="hover:text-gray-400"><Link href="/Services">Services</Link></p>
-              <p className="hover:text-gray-400"><Link href="/Project">Project</Link></p>
-               <p className="hover:text-gray-400"><Link href="/Contact-Page">Contact Me</Link></p>
+            <p className="hover:scale-110 hover:text-gray-400"><Link href="/About">About</Link></p>
+             <p className="hover:scale-110 hover:text-gray-400"><Link href="/Services">Services</Link></p>
+              <p className="hover:scale-110 hover:text-gray-400"><Link href="/Project">Project</Link></p>
+               <p className="hover:scale-110 hover:text-gray-400"><Link href="/Contact-Page">Contact Me</Link></p>
              </h2>
 
 

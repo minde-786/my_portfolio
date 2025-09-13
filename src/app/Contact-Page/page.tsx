@@ -112,7 +112,7 @@ console.log('Submitting the form', data)
           
           className='bg-[#051850] rounded-2xl border border-slate-800 shadow-lg hover:shadow-2xl px-12 py-2 mt-14 text-amber-50 lg:mx-96 hover:text-blue-600'
         >
-          {isSubmitting ? "submitting" : "submit"}
+          {isSubmitting ? "submitting...." : "submit"}
           
         </button>
     </div> </div></form>
